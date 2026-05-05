@@ -8,6 +8,8 @@ data/
 models/
 logs/
 benchmarks/
+_clips/
+**/_clips/
 
 .env
 .env.*
@@ -15,6 +17,8 @@ benchmarks/
 *.db
 *.sqlite
 *.sqlite3
+*.session
+*.session-journal
 
 *.tmp
 *.bak
